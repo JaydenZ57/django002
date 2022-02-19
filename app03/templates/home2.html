@@ -1,15 +1,16 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="{% static 'styles.css '%}">
 </head>
 <body>
 
 <h1>
     {{ info }}
-    <img src="/static/Pokemon.jpg">
+    <img src="{% static 'angry.png' %}">
 </h1>
 
 </body>
